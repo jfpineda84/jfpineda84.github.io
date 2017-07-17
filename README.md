@@ -21,16 +21,7 @@ To implement the techniques i have learned since then, i have created this versi
 
 This allowed me easily to `<render>` much of the repeated information, thus “DRY-ing” the code, something i had a hard time managing with the [first version](https://github.com/jfpineda84/Personal-Website) of the site. 
 
-
-
-
 For the styling, I utilized CSS properties such as flex box to manipulate HTML divs and be able to arrange the contents properly.
-
-PICS HERE
-
-Final product
-
-PICS HERE
 
 ## Highlights
 
