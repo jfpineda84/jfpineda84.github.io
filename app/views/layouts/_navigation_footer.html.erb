@@ -4,15 +4,14 @@
 <!-- end of class logo -->
 
 <ul class="nav">
-  <li><%= render 'layouts/parcers/navigation_link_bar_one.html.erb' %></li>
-  <li><%= link_to 'Contact', pages_contact_path %></li>
+  <%= render 'layouts/parcers/navigation_link_bar_one.html.erb' %>
+  <li><h4><%= link_to 'CONTACT', pages_contact_path %></h4></li>
 </ul>
 <!-- end class=nav -->
 
 <div class="contact-info">
   <ul>
-    <li>Juan F. Pineda</li>
-    <li>(754) 273-6608</li>
+    <li><h4>(754) 273-6608</h4></li>
     <li><a href="#">jfpineda84@gmail.com</a></li>
   </ul>
 </div>
@@ -20,8 +19,8 @@
 
 <div class="reference">
   <ul>
-    <li class="linked-in"><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
-    <li class="git-hub"><i class="fa fa-github-square" aria-hidden="true"></i></li>
+    <li class="linked-in"><a href="https://www.linkedin.com/in/juanfpineda/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+    <li class="git-hub"><a href="https://github.com/jfpineda84" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
   </ul>
   <p>The portfolio of Juan Fernando Pineda</p>
   <p class="copy-right">&#169; 2017 Juan Fernando Pineda</p>

@@ -1,0 +1,53 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// ==== //// ====== Content pages general ===== /// ====
+
+// frame box color
+// .body-wrapper {
+//   border: 1px solid red;
+// }
+// .body-block1 {
+//   border: 1px solid red;
+// }
+// .body-wrapper {
+//   border: 1px solid red;
+// }
+// .bio-text {
+//   border: 1px solid red;
+// }
+// .bio-pic {
+//   border: 1px solid red;
+// }
+// header titles
+.title {
+  text-align: center;
+}
+.body-block1 {
+  justify-content: center;
+  margin: 0 3% 3% 3%;
+}
+
+// ==== //// ====== about page ===== /// ====
+
+// picture details
+.bio-pic {
+  float: right;
+}
+// picture size
+.pic {
+    width: 22%;
+}
+// .body-block1 , .items {
+//   display: flex;
+//   justify-content: center;
+// }
+
+/* ==== //// ====== Portfolio & Contact Page ===== /// ==== */
+
+// alligns the inside contents in the center of the page
+.body-block2 {
+  margin: 0 10% 0 10%;
+  text-align: center;
+}

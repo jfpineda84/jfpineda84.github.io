@@ -2,40 +2,50 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title><%= content_for?(:title) ? yield(:title) : "Juan Fernando" %></title>
+
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Juan Fernando" %>">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800%7CPacifico" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Oswald:400,600" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload' %>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
+
     <%= csrf_meta_tags %>
+
   </head>
   <body>
+    <div id="container">
 
-    <header>
-      <div class="head-wrapper">
-        <%= render 'layouts/navigation_header' %>
-      </div>
-      <!-- end of head-wrapper -->
-    </header>
-    <!-- end of header -->
+      <header class="header">
+        <div class="head-wrapper">
+          <%= render 'layouts/navigation_header' %>
+        </div>
+        <!-- end of head-wrapper -->
+      </header>
+      <!-- end of header -->
 
-    <main role="main">
-      <div class="body-wrapper">
-        <%= render 'layouts/messages' %>
-        <%= yield %>
-      </div>
-      <!-- end of body-wrapper -->
-    </main>
-    <!-- end of main -->
+      <main class="main" role="main">
+        <div class="body-wrapper">
+          <%= render 'layouts/messages' %>
+          <%= yield %>
+        </div>
+        <!-- end of body-wrapper -->
+      </main>
+      <!-- end of main -->
 
-    <footer>
-      <div class="foot-wrapper">
-        <%= render 'layouts/navigation_footer' %>
-      </div>
-      <!-- end of class foot-wrapper -->
-    </footer>
-    <!-- end of footer -->
-
+      <footer class="footer">
+        <div class="foot-wrapper">
+          <%= render 'layouts/navigation_footer' %>
+        </div>
+        <!-- end of class foot-wrapper -->
+      </footer>
+      <!-- end of footer -->
+    </div>
+    <!-- end id container -->
   </body>
 </html>
