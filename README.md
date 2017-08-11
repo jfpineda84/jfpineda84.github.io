@@ -3,7 +3,7 @@
 
 Personal website where you can view my contact information as well as some of my current and past projects i'm working on or have worked on. 
 
-The main purpose of this website is to aid future employers with a snapshot at my professional background and code. Furthermore, it is a good place to learn more about who i am past the code. You can access this website at my heroku site @ **url missing**
+The main purpose of this website is to aid future employers with a snapshot at my professional background and code. Furthermore, it is a good place to learn more about who i am past the code. You can access this website at .
 
 This website has been build using Ruby on Rails, HTML, CSS, and Bootstrap. 
 
